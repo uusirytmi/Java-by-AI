@@ -1,0 +1,21 @@
+!javac SimpleCalculator.java !java SimpleCalculator　とはなんですか
+
+これらのコマンドはJavaプログラムをコンパイルして実行するためのものです。詳しく説明しましょう:
+
+1. `!javac SimpleCalculator.java`
+   - これはJavaソースファイル `SimpleCalculator.java` をコンパイルするコマンドです。
+   - `javac` はJavaコンパイラを呼び出します。
+   - コンパイルが成功すると、`SimpleCalculator.class` という名前のバイトコードファイルが生成されます。
+
+2. `!java SimpleCalculator`
+   - これは先ほどコンパイルした `SimpleCalculator` クラスを実行するコマンドです。
+   - `java` コマンドはJava仮想マシン（JVM）を起動し、指定されたクラスのmainメソッドを実行します。
+
+これらのコマンドは通常、コマンドラインやターミナルで使用されます。`!` が先頭についているのは、特定の環境（例えばJupyter NotebookやIDEの一部）でシェルコマンドを実行するための特別な記法かもしれません。
+
+標準的な環境では、これらのコマンドは `!` なしで次のように使用されます：
+
+```
+javac SimpleCalculator.java
+java SimpleCalculator
+```
