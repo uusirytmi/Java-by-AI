@@ -11,4 +11,4 @@
 
 今後.IDEで動かせるかをやってみる(仮)
 
-Marp Web(計算機byClaude).mdはhttps://web.marp.app/でスライドにできます。
+Marp Web(計算機byClaude).mdはhttps://web.marp.app/　でスライドにできます。
